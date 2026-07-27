@@ -4,49 +4,65 @@ A simple basketball shooting mechanic built in **Unity 6**, demonstrating player
 
 ---
 
-## 🎥 Demo
+# 🎥 Demo
 
-🎮 **Watch the gameplay on LinkedIn**
+### 🎬 Watch the Gameplay
 
-*(Add your LinkedIn post URL here)*
+- 💼 **LinkedIn Post**
+  
+  https://www.linkedin.com/posts/abikarthick_building-a-simple-basketball-shooting-mechanic-ugcPost-7478459075438043137-5Qe3/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFSOB30BmmB1CU-K0qKbTzBatWHrXxYbp5U
 
-![Thumbnail](Images/thumbnail.png)
+- 🌐 **Portfolio**
+
+  https://abikarthickgdev.github.io/GAMEDEV_PORTFOLIO/
+
+- 🎥 **Gameplay Video**
+
+  Videos/Basketball-hover.mp4
 
 ---
 
-## 📸 Screenshots
+# 📸 Screenshots
 
-### Player Movement & Dribble
+### Player Movement
 
-![Screenshot 1](Images/screenshot-1.png)
+![Screenshot 1](Images/Screenshot-1.png)
+
+---
+
+### Ball Dribbling
+
+![Screenshot 2](Images/Screenshot-2.png)
+
+---
 
 ### Aiming System
 
-![Screenshot 2](Images/screenshot-2.png)
+![Screenshot 3](Images/Screenshot-3.png)
 
-### Shooting
+---
 
-![Screenshot 3](Images/screenshot-3.png)
+### Shooting & Ball Trajectory
 
-### Ball Trajectory
+![Screenshot 4](Images/Screenshot-4.png)
 
-![Screenshot 4](Images/screenshot-4.png)
+---
 
 ### Ball Collection & Reset
 
-![Screenshot 5](Images/screenshot-5.png)
+![Screenshot 5](Images/Screenshot-5.png)
 
 ---
 
 # 🎯 Features
 
 - 🏀 Player movement
-- 🤲 Ball dribbling animation
-- 🎯 Hold-to-aim mechanic
-- 🔄 Automatic player rotation
-- 📈 Parabolic shooting trajectory
-- ⚙️ Physics enabled after release
-- 🔁 Ball reset and collection
+- 🤲 Automatic ball dribbling
+- 🎯 Hold Space to aim
+- 🔄 Automatic player rotation toward the hoop
+- 📈 Smooth parabolic shooting trajectory
+- ⚙️ Rigidbody physics after release
+- 🔁 Ball collection and reset system
 
 ---
 
@@ -56,21 +72,31 @@ A simple basketball shooting mechanic built in **Unity 6**, demonstrating player
 - C#
 - Unity Physics
 - Rigidbody
-- Transform Interpolation
+- Transform
+- Vector3.Lerp
+- Mathf.Sin
 
 ---
 
 # 📂 Repository Structure
 
 ```text
-Unity-Basketball-Shooting-Mechanic/
+Unity-Basketball-Shooting-Mechanic
 │
 ├── README.md
-├── LICENSE
 │
-├── Images/
-├── Scripts/
-└── Videos/
+├── Images
+│   ├── Screenshot-1.png
+│   ├── Screenshot-2.png
+│   ├── Screenshot-3.png
+│   ├── Screenshot-4.png
+│   └── Screenshot-5.png
+│
+├── Scripts
+│   └── BasketballController.cs
+│
+└── Videos
+    └── Basketball-hover.mp4
 ```
 
 ---
@@ -79,16 +105,16 @@ Unity-Basketball-Shooting-Mechanic/
 
 This repository contains the core gameplay implementation:
 
-- BasketballController.cs
+- ✅ BasketballController.cs
 
-The complete Unity project is intentionally not included because it contains project files and scene setup used in my personal portfolio.
+The complete Unity project is intentionally **not included**, as it contains project-specific assets, prefabs, scenes, and other files from my personal portfolio project.
 
 ---
 
 # 🎮 Controls
 
-| Action | Key |
-|---------|-----|
+| Action | Input |
+|---------|------|
 | Move | WASD / Arrow Keys |
 | Aim | Hold Space |
 | Shoot | Release Space |
@@ -98,21 +124,32 @@ The complete Unity project is intentionally not included because it contains pro
 # 🧠 Skills Demonstrated
 
 - Gameplay Programming
+- Player Controller
 - State Management
-- Player Input
 - Ball Handling
-- Parabolic Motion
-- Unity Physics
-- Rigidbody Control
+- Dribble Animation
+- Aiming System
+- Parabolic Trajectory
+- Rigidbody Physics
 - Object Interaction
+- Unity C#
 
 ---
 
-# 🤝 Connect With Me
+# 🌐 Explore More
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/abikarthick
-- 💻 **GitHub:** https://github.com/ABIKARTHICKGDEV
+🎮 **Portfolio**
+
+https://abikarthickgdev.github.io/GAMEDEV_PORTFOLIO/
+
+💼 **LinkedIn**
+
+https://www.linkedin.com/in/abikarthick
+
+💻 **GitHub**
+
+https://github.com/ABIKARTHICKGDEV
 
 ---
 
-⭐ If you found this mechanic interesting, feel free to connect with me on LinkedIn and check out my other Unity gameplay prototypes.
+⭐ If you found this project interesting, feel free to explore my other Unity gameplay mechanics and game development projects.
